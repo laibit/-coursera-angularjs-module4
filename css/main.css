@@ -1,0 +1,34 @@
+
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+h3 {
+  color: #666666;
+}
+
+a[ui-sref]:hover {
+  cursor: pointer;
+}
+
+tr[ui-sref]:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+#panel {
+	padding: 40px 0 50px;
+}
+
+#panel > .choice {
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+

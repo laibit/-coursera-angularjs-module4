@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="" ng-app="MenuApp">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Single Page Apps with AngularJS - Coursera</title>
+      <link rel="icon" href="favicon.ico" type="image/ico">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+
+          <ui-view></ui-view>
+
+        </div>
+      </div>
+    </div> <!-- / .container -->
+
+    <!-- Libraries -->
+    <script src="lib/jquery-1.11.2.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+
+    <!-- Modules -->
+    <script src="src/menuapp.module.js"></script>
+    <script src="src/data.module.js"></script>
+
+    <!-- Routes -->
+    <script src="src/routes.js"></script>
+
+    <!-- App module artifacts -->
+    <script src="src/categories.controller.js"></script>
+    <script src="src/items.controller.js"></script>
+    <script src="src/menudata.service.js"></script>
+    <script src="src/categories.component.js"></script>
+    <script src="src/items.component.js"></script>
+
+  </body>
+</html>
