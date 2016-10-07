@@ -4,8 +4,28 @@
    Custom styles
    ========================================================================== */
 
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
 h3 {
   color: #666666;
+}
+
+.navbar.navbar-default {
+  height: 80px;
+}
+
+.navbar-brand p img {
+  width: 50px;
+  height: 50px;
+  margin: 0 15px 0 0;
+}
+
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+  font-size: 1.3em;
 }
 
 a[ui-sref]:hover {
